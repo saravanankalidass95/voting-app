@@ -44,11 +44,8 @@
                         @endauth
                     </div>
                 @endif
-                <a href="#">
-                <img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp" alt="avatar" class="w-10 h-10 rounded-full">
-                </a>
-
-                </a>
+                <livewire:user-upload-picture />
+                             
             </div>
         </header>
         <main class="container mx-auto max-w-custom flex flex-col md:flex-row">
