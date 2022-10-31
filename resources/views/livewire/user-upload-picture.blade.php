@@ -23,7 +23,7 @@
             
             <div class="w-full flex flex-col justify-between mx-2 md:mx-4">
                 <div class="w-full flex flex-col justify-between mx-2 md:mx-4 px-5 py-3">
-                    <span class="text-xl font-semibold mt-2 md:mt-0 py-3">{{Auth::user()->name}}'s Dashboard</span>
+                    <span class="text-xl font-semibold mt-2 md:mt-0 py-3">Welcome!</span>
                     
                     <div class="font-semibold text-sm py-3">
                         @if (session('status'))
